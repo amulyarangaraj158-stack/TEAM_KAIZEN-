@@ -1,0 +1,1152 @@
+# AUTOPATCH AI – COMPLETE MASTER DEVELOPMENT INSTRUCTION
+
+## PROJECT OVERVIEW
+
+Project Name: AutoPatch AI
+
+Project Title: Autonomous Software Bug Detection and Repair System
+
+Act as a senior full-stack software engineer, AI engineer, cybersecurity specialist, database architect, QA engineer, and advanced UI/UX designer.
+
+Your task is to transform my EXISTING AutoPatch AI project into a fully functional, intelligent, secure, and visually advanced AI-powered software debugging and automatic repair platform.
+
+This is an enhancement of an existing application, NOT a new project.
+
+The application must have a working frontend, backend, database, AI integrations, file processing, code analysis, and real functionality.
+
+**THE MOST IMPORTANT REQUIREMENT: EVERY FEATURE YOU IMPLEMENT MUST ACTUALLY WORK.**
+
+Do not create buttons that do nothing, static dashboards, decorative feature cards, simulated results, fake progress, placeholder APIs, or non-functional pages.
+
+A feature is not complete merely because its interface looks finished.
+
+---
+
+# PART 1 – FIRST INSPECT THE EXISTING PROJECT
+
+Before modifying anything:
+
+1. Inspect the complete existing source code and folder structure.
+2. Identify the current frontend and backend frameworks.
+3. Inspect all existing routes, components, APIs, database tables, and integrations.
+4. Identify existing functionality and working features.
+5. Identify existing bugs and incomplete features.
+6. Check the existing Gemini integration.
+7. Check the existing project upload and code scanning functionality.
+8. Check the existing Website Debugger and Multimedia/Video Debugger implementations.
+9. Check all dependencies and configuration files.
+
+Create a safe backup or working branch before making significant changes.
+
+Do not delete, replace, or rewrite working components unnecessarily.
+
+Preserve the existing application architecture wherever possible.
+
+Do not introduce duplicate functionality.
+
+---
+
+# PART 2 – COMPLETE TECHNOLOGY STACK
+
+Use the following technology stack where compatible with the existing project.
+
+Do not migrate the existing project unnecessarily just to match this list.
+
+## Frontend
+
+- React.js
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Framer Motion
+- Three.js with React Three Fiber for 3D elements
+- Lucide React for icons
+- Recharts for analytics
+- React Router for navigation
+- TanStack Query for API state management
+- Zustand for shared client state
+- Monaco Editor for code editing
+- React Flow for dependency visualization
+- React Hook Form
+- Zod for validation
+
+## Backend
+
+- Node.js
+- Express.js
+- TypeScript
+- REST APIs
+- Socket.IO for real-time notifications and scan updates
+- JWT authentication
+- bcrypt for password hashing
+- Zod for request validation
+
+Retain an existing working backend framework if it already provides these capabilities.
+
+## Database
+
+- Existing SQLite database.
+- Prisma ORM where compatible with the current database.
+- Safe database migrations.
+- Proper relationships, indexes, constraints, and foreign keys.
+
+Preserve all existing records and user data.
+
+## AI Integration
+
+- Google Gemini API.
+- Structured AI responses.
+- Context-aware code analysis.
+- Bug classification.
+- Root cause analysis.
+- Patch generation.
+- Fix explanations.
+- Bug pattern analysis.
+
+Keep API keys on the backend using environment variables.
+
+Never expose secrets in frontend code.
+
+## Code Analysis and Testing Tools
+
+Use appropriate tools based on the programming language:
+
+- ESLint.
+- TypeScript compiler.
+- Prettier.
+- Semgrep.
+- Bandit.
+- Ruff or Pylint.
+- Pytest.
+- Jest or Vitest.
+- Playwright.
+- Lighthouse.
+- Tree-sitter or appropriate language parsers.
+- FFmpeg and secure media inspection tools.
+
+Only enable checks that are actually installed and configured.
+
+## Deployment and Infrastructure
+
+- Git.
+- GitHub.
+- Docker or equivalent isolated execution environment.
+- GitHub Actions where appropriate.
+- Environment variables.
+- Vercel or equivalent frontend hosting.
+- Render, Railway, or equivalent backend hosting.
+
+Provide deployment instructions compatible with the final architecture.
+
+---
+
+# PART 3 – CYBERPUNK UI/UX REDESIGN
+
+Transform the application into a premium futuristic cyberpunk AI command centre.
+
+The design should combine:
+
+- Cyberpunk technology aesthetics.
+- AI intelligence dashboards.
+- Advanced software engineering workstations.
+- Holographic visualizations.
+- Premium enterprise SaaS design.
+- Interactive 3D elements.
+
+The application must look like an advanced autonomous AI system that continuously monitors, analyses, detects, and repairs software problems.
+
+## Colour palette
+
+Retain this colour combination throughout the application:
+
+- Main background: #070B14
+- Secondary background: #0B1220
+- Card background: #101A2B
+- Elevated cards: #142238
+- Neon cyan: #00F5FF
+- Electric purple: #A855F7
+- Neon blue: #3B82F6
+- Neon green: #39FF88
+- Warning amber: #FFB020
+- Critical red: #FF3864
+- Primary text: #F1F5F9
+- Secondary text: #94A3B8
+
+## Visual design
+
+Implement:
+
+- Subtle neon borders.
+- Glassmorphism panels.
+- Holographic gradients.
+- Dark translucent cards.
+- Subtle animated grid backgrounds.
+- Futuristic data visualizations.
+- Smooth page transitions.
+- Cursor-responsive elements.
+- Subtle 3D depth.
+- Premium hover interactions.
+- Carefully controlled glow effects.
+
+Use Inter for the main interface and JetBrains Mono for code and technical information.
+
+Do not sacrifice readability for visual effects.
+
+---
+
+# PART 4 – INTERACTIVE 3D LADYBUG ANIMATION
+
+This is an important visual identity feature of AutoPatch AI.
+
+Create a small, detailed, futuristic 3D ladybug that moves around the dashboard.
+
+Use Three.js and React Three Fiber where appropriate.
+
+## Ladybug behaviour
+
+1. The ladybug should move naturally around selected areas of the dashboard.
+2. Its movement should respond subtly to cursor position.
+3. It should move smoothly without obstructing text or buttons.
+4. It should have realistic movement, small leg motion, and subtle wing movement.
+5. It should have a subtle neon outline matching the cyberpunk theme.
+6. It should not interfere with user interactions.
+7. Users should be able to disable the animation in Settings.
+8. Optimize rendering so it does not slow down the application.
+
+## Bug detection interaction
+
+When AutoPatch AI actually detects a software bug:
+
+- Trigger a subtle ladybug reaction animation.
+- Make the ladybug move toward the relevant notification or bug indicator.
+- Display a small animated detection indicator.
+- Use different visual states for low, medium, high, and critical severity.
+- When the bug is fixed and verified, show a subtle successful repair animation.
+
+These animations must be connected to actual backend events.
+
+Do not trigger detection animations randomly or simulate bug discoveries.
+
+Provide a graceful fallback if 3D rendering is unavailable.
+
+---
+
+# PART 5 – APPLICATION NAVIGATION
+
+Create a responsive collapsible sidebar.
+
+## WORKSPACE
+
+- Overview
+- My Projects
+- Upload & Scan
+- Code Workbench
+
+## AI INTELLIGENCE
+
+- Bug Intelligence
+- Code Impact Radar
+- Website Debugger
+- Multimedia Debugger
+
+## MANAGEMENT
+
+- Patch Audit Trail
+- Notifications
+- Settings
+
+Do not include:
+
+- Ask AutoPatch AI Chat.
+- Test Guardian.
+- Regression Guardian.
+
+Completely remove their navigation items, pages, components, API endpoints, and unused code if they are not required elsewhere.
+
+Do not remove unrelated working functionality.
+
+## Top navigation
+
+Include:
+
+- Global search.
+- Project selector.
+- System health status.
+- Notifications.
+- User profile.
+- Settings.
+
+Make navigation functional across all pages.
+
+---
+
+# PART 6 – MAIN DASHBOARD
+
+Create an advanced cyberpunk dashboard.
+
+## Welcome section
+
+Heading:
+
+"Welcome to AutoPatch AI"
+
+Subtitle:
+
+"Your intelligent software debugging and autonomous repair command centre."
+
+Include:
+
+- Current date.
+- Active project.
+- Upload Project button.
+- Start New Scan button.
+
+## System health
+
+Display actual backend status for:
+
+- AI service.
+- Backend API.
+- Database.
+- Code analysis engine.
+- File processing engine.
+
+Use real health checks.
+
+Never display a service as operational when it is unavailable.
+
+## Dashboard analytics
+
+Create four main analytics cards:
+
+1. Total Bugs Detected.
+2. Bugs Successfully Fixed.
+3. Critical Issues.
+4. Project Health Score.
+
+Calculate all values using actual database information.
+
+## Project overview
+
+Display:
+
+- Project name.
+- Programming languages.
+- Last scan.
+- Total files.
+- Detected bugs.
+- Resolved bugs.
+- Project health.
+- Recent activity.
+
+## Live activity feed
+
+Display actual events such as:
+
+- Project uploaded.
+- Scan started.
+- Bug detected.
+- AI analysis completed.
+- Patch generated.
+- Patch approved.
+- Patch applied.
+- Fix verified.
+- Rollback completed.
+
+Use real backend events and database records.
+
+---
+
+# PART 7 – CORE FUNCTIONAL FEATURES
+
+Implement all the following features.
+
+## FEATURE 1 – SMART FIX CONFIDENCE AND RISK SCORE
+
+For every AI-generated patch, calculate two separate indicators.
+
+### Fix Confidence
+
+Estimate how likely the proposed patch is to resolve the identified issue.
+
+Consider:
+
+- Bug category.
+- Original error.
+- Code context.
+- Root cause.
+- Patch quality.
+- Available validation results.
+
+### Change Risk
+
+Estimate the likelihood of unintended side effects.
+
+Consider:
+
+- Number of changed files.
+- Dependency impact.
+- Sensitive code paths.
+- Scope of modifications.
+- Available test coverage.
+- Severity of affected components.
+
+Display:
+
+- Circular confidence meter.
+- Circular risk meter.
+- Low, Medium, High, or Critical risk classification.
+- Explanation of the score.
+- Factors affecting the score.
+
+Do not present estimated scores as proven probabilities.
+
+Allow users to inspect the explanation before approving a patch.
+
+## FEATURE 2 – CODE IMPACT RADAR
+
+Implement an interactive code dependency visualization using React Flow.
+
+Analyse actual project relationships.
+
+Display:
+
+- Files.
+- Modules.
+- Functions where supported.
+- Direct dependencies.
+- Indirect dependencies.
+- Affected components.
+- High-impact files.
+
+Highlight affected nodes using neon colours.
+
+Allow users to click a node and inspect its source file and dependency information.
+
+Do not create a random or decorative graph.
+
+The visualization must be generated from actual project code and dependency information.
+
+## FEATURE 3 – BUG PATTERN INTELLIGENCE
+
+Analyse historical bug records.
+
+Identify:
+
+- Most common bug categories.
+- Repeated error messages.
+- Frequently affected files.
+- Common root causes.
+- Recurring issues.
+- Bug frequency over time.
+- Frequently repeated coding mistakes where supported by evidence.
+
+Generate AI-based prevention recommendations using actual project history.
+
+Provide filters and charts.
+
+## FEATURE 4 – LEARN FROM YOUR BUGS
+
+Create a dedicated learning centre.
+
+For every resolved bug, display:
+
+- Original bug.
+- Error message.
+- Root cause.
+- Incorrect code.
+- Corrected code.
+- Why the fix works.
+- How to prevent the issue.
+- Related programming concepts.
+
+Provide:
+
+- Search.
+- Category filters.
+- Project filters.
+- Bug history.
+- Code comparison.
+
+Generate explanations using the actual bug and accepted patch.
+
+## FEATURE 5 – ONE-CLICK ROLLBACK
+
+Implement a safe rollback system.
+
+Before applying an approved patch:
+
+1. Save the original file versions.
+2. Record the patch details.
+3. Create a recoverable snapshot.
+4. Apply the patch only after user approval.
+5. Record the result.
+
+Allow users to:
+
+- View previous snapshots.
+- Compare current and previous code.
+- Select a patch to roll back.
+- Review affected files.
+- Confirm rollback.
+- Restore the selected version.
+
+Important:
+
+- Do not overwrite unrelated user changes.
+- Detect conflicts before restoring.
+- Support multiple patches.
+- Preserve rollback history.
+- Do not delete audit records.
+
+## FEATURE 6 – MULTI-LANGUAGE INTELLIGENCE
+
+Support language-aware code analysis for:
+
+- Python.
+- JavaScript.
+- TypeScript.
+- Java.
+- C.
+- C++.
+- Go.
+- Rust.
+- SQL.
+- HTML.
+- CSS.
+- JSON.
+- PHP.
+- C#.
+
+Detect languages automatically wherever possible.
+
+Use the appropriate parsers, linters, compilers, and testing tools.
+
+Show supported and unsupported analysis capabilities clearly.
+
+Do not claim that a language is fully supported when its analyzer is unavailable.
+
+## FEATURE 7 – WEBSITE DEBUGGER
+
+This feature must be fully functional.
+
+Fix the existing Website Debugger instead of merely redesigning its interface.
+
+Allow users to:
+
+- Enter a website URL.
+- Start a website scan.
+- View scan progress.
+- Inspect errors.
+- View diagnostic reports.
+- Understand the cause of problems.
+- Receive suggested fixes.
+- Re-run scans.
+
+Use Playwright and Lighthouse where configured.
+
+### Website checks
+
+Implement:
+
+1. Broken link detection.
+2. Missing images and resources.
+3. Browser console errors.
+4. JavaScript runtime errors.
+5. Failed network requests.
+6. HTTP response problems.
+7. Responsive layout problems.
+8. Accessibility issues.
+9. Performance issues.
+10. Basic SEO checks.
+11. Missing page resources.
+12. Common frontend rendering issues.
+
+Display results with:
+
+- Issue name.
+- Description.
+- Severity.
+- Affected URL.
+- Technical evidence.
+- Suggested solution.
+- Scan status.
+
+### Website security
+
+Implement strict SSRF protection.
+
+- Block localhost and private network destinations.
+- Validate DNS resolution.
+- Revalidate redirects.
+- Restrict protocols.
+- Apply request timeouts.
+- Limit resource consumption.
+- Prevent access to internal services.
+
+Do not allow a website scan to access internal server resources.
+
+### Website bug fixing
+
+Where source code is available:
+
+- Identify the relevant source file.
+- Generate a suggested patch.
+- Display before/after code.
+- Show confidence and risk.
+- Require user approval.
+- Apply the patch safely.
+- Allow verification by running the relevant scan again.
+
+For external websites without source access, provide diagnostic reports and suggested fixes only. Do not pretend to modify websites that the user does not control.
+
+## FEATURE 8 – MULTIMEDIA BUG DETECTOR
+
+This feature must be fully functional.
+
+Fix the existing Video Debugger and Multimedia Debugger.
+
+Support image, audio, and video uploads.
+
+### Image validation
+
+Check:
+
+- Corrupted images.
+- Unsupported image formats.
+- Missing images.
+- Invalid file headers.
+- Incorrect dimensions.
+- Metadata problems.
+- Broken image references inside uploaded projects.
+
+### Audio validation
+
+Check:
+
+- Corrupted audio.
+- Unsupported codecs.
+- Missing audio streams.
+- Invalid file headers.
+- Duration problems.
+- Metadata problems.
+- Playback compatibility.
+
+### Video validation
+
+Check:
+
+- Corrupted video files.
+- Missing video streams.
+- Missing audio streams.
+- Unsupported codecs.
+- Container format issues.
+- Playback compatibility.
+- Metadata errors.
+- Duration and resolution.
+- Frame decoding problems.
+- Broken video references inside uploaded projects.
+
+Use FFmpeg/FFprobe and appropriate safe media inspection libraries.
+
+### Multimedia report
+
+Display:
+
+- File name.
+- File type.
+- Format.
+- Codec.
+- Duration.
+- Resolution.
+- File size.
+- Validation status.
+- Detected problems.
+- Severity.
+- Suggested solutions.
+
+Provide a working preview for supported media formats.
+
+Ensure that uploaded media can be processed safely.
+
+### Important distinction
+
+Technical media validation and AI-based image/video interpretation are different capabilities.
+
+Implement technical checks as the primary functionality.
+
+Do not claim that the application understands video content unless an actual video-understanding integration is configured.
+
+Apply upload limits, MIME validation, secure file storage, and isolated processing.
+
+## FEATURE 9 – SUCCESS NOTIFICATION SYSTEM
+
+Implement a database-backed notification centre.
+
+Generate notifications for:
+
+- Project uploaded.
+- Scan completed.
+- Bugs detected.
+- Critical issue detected.
+- Patch generated.
+- Patch applied.
+- Fix verified.
+- Rollback completed.
+- Scan failed.
+
+Requirements:
+
+- Real-time updates using Socket.IO.
+- Unread count.
+- Mark as read.
+- Mark all as read.
+- Notification history.
+- Project-specific notifications.
+- Relevant navigation when clicked.
+
+Only send notifications after the backend confirms the operation.
+
+## FEATURE 10 – PATCH AUDIT TRAIL
+
+Create a complete patch activity history.
+
+Record:
+
+- Bug detected.
+- AI analysis performed.
+- Patch generated.
+- Patch approved.
+- Patch rejected.
+- Patch modified.
+- Patch applied.
+- Patch verification result.
+- Patch rolled back.
+
+Store:
+
+- User ID.
+- Project ID.
+- Bug ID.
+- Timestamp.
+- Original code.
+- Proposed code.
+- Approved code.
+- Confidence score.
+- Risk score.
+- Test or validation results.
+- Action status.
+
+Create a Monaco before/after diff viewer.
+
+Provide filters for:
+
+- Project.
+- Date.
+- Bug category.
+- User.
+- Risk level.
+- Action type.
+
+Allow CSV and PDF export.
+
+Preserve the audit trail. Do not silently erase historical events.
+
+---
+
+# PART 8 – UPLOAD AND SCANNING SYSTEM
+
+The project upload and scan workflow must work end to end.
+
+Support project ZIP uploads and individual supported source files.
+
+## Upload workflow
+
+1. Select a project or create a new project.
+2. Upload the ZIP or supported files.
+3. Validate file type and size.
+4. Safely extract files.
+5. Reject path traversal and unsafe archive entries.
+6. Identify programming languages.
+7. Discover project files.
+8. Detect dependencies.
+9. Start code analysis.
+10. Store results in the database.
+
+Do not execute uploaded code during extraction.
+
+## Scanning stages
+
+Display genuine progress for:
+
+1. Project validation.
+2. File discovery.
+3. Language detection.
+4. Dependency analysis.
+5. Static analysis.
+6. AI analysis.
+7. Bug classification.
+8. Fix generation.
+9. Result storage.
+10. Report generation.
+
+Use real backend progress events.
+
+Do not show artificial progress percentages.
+
+Allow users to view scan history and previous reports.
+
+Handle large projects, invalid ZIP files, unsupported languages, and scan failures gracefully.
+
+---
+
+# PART 9 – CODE WORKBENCH
+
+Create a professional coding environment using Monaco Editor.
+
+Include:
+
+- File explorer.
+- Syntax highlighting.
+- Language detection.
+- Code search.
+- Inline diagnostics.
+- Bug markers.
+- AI patch suggestions.
+- Original code.
+- Proposed code.
+- Approved code.
+- Before/after diff viewer.
+- Apply patch.
+- Reject patch.
+- Save changes.
+- Undo and redo where supported.
+
+When a bug is selected, show:
+
+- Bug description.
+- Severity.
+- Root cause.
+- Affected file.
+- Affected code.
+- Suggested fix.
+- Confidence score.
+- Risk score.
+
+Never modify the original project silently.
+
+Require explicit approval before applying a patch.
+
+---
+
+# PART 10 – DATABASE AND BACKEND
+
+Inspect and extend the existing database.
+
+Preserve existing tables and data, including where present:
+
+- users
+- projects
+- uploaded_files
+- scan_history
+- detected_bugs
+- suggested_fixes
+- test_results
+- change_history
+
+Add necessary tables where appropriate:
+
+- notifications
+- patch_snapshots
+- patch_audit_events
+- dependency_nodes
+- dependency_edges
+- multimedia_analysis
+- website_scan_results
+- bug_learning_records
+
+Do not duplicate existing data structures unnecessarily.
+
+Implement:
+
+- Proper relationships.
+- Foreign keys.
+- Database migrations.
+- Authentication.
+- Authorization.
+- Project ownership.
+- Request validation.
+- Error handling.
+- Pagination.
+- Search.
+- Filtering.
+- Logging.
+
+All dashboard metrics must come from actual database queries.
+
+All frontend actions must connect to real backend APIs.
+
+---
+
+# PART 11 – SECURITY
+
+Implement:
+
+- Secure password hashing.
+- JWT authentication.
+- Protected routes.
+- Role and ownership checks.
+- Environment-based secrets.
+- Input validation.
+- Rate limiting.
+- File size limits.
+- File type validation.
+- Path traversal prevention.
+- SQL injection prevention.
+- XSS protection.
+- Secure CORS configuration.
+- Safe temporary file cleanup.
+- Secure error handling.
+- Isolated execution of untrusted code.
+
+Never execute uploaded code directly on the main server.
+
+Use Docker or another restricted execution environment for untrusted code execution.
+
+Apply execution time, memory, filesystem, and network restrictions.
+
+Treat AI-generated code and uploaded files as untrusted input.
+
+---
+
+# PART 12 – RESPONSIVE DESIGN AND ACCESSIBILITY
+
+The entire application must work across:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Mobile.
+
+Implement:
+
+- Responsive sidebar.
+- Mobile navigation drawer.
+- Responsive dashboard cards.
+- Touch-friendly buttons.
+- Readable charts.
+- Responsive code workspace.
+- Loading indicators.
+- Empty states.
+- Error states.
+- Confirmation dialogs.
+- Toast messages.
+- Keyboard accessibility.
+- Appropriate colour contrast.
+
+Maintain the cyberpunk appearance across every screen.
+
+---
+
+# PART 13 – FUNCTIONAL TESTING AND ACCEPTANCE
+
+Do not stop after implementing the interface.
+
+Test every feature end to end.
+
+## Test the following workflows
+
+### Workflow A – Project upload
+
+- Upload a valid ZIP.
+- Verify extraction.
+- Verify file discovery.
+- Verify language detection.
+- Verify database storage.
+- Verify invalid ZIP handling.
+
+### Workflow B – Code scanning
+
+- Start a scan.
+- Verify actual analysis.
+- Detect a known test bug.
+- Verify severity classification.
+- Verify the bug appears in the dashboard.
+- Verify scan history.
+
+### Workflow C – AI patching
+
+- Generate a fix.
+- Verify the proposed code.
+- Verify confidence and risk calculations.
+- Display a code diff.
+- Approve the patch.
+- Apply the patch.
+- Verify the resulting file.
+- Preserve the original snapshot.
+
+### Workflow D – Rollback
+
+- Apply a test patch.
+- Roll back the patch.
+- Verify the original code is restored.
+- Verify audit history is preserved.
+
+### Workflow E – Website Debugger
+
+- Scan a controlled test website.
+- Detect known broken links.
+- Detect known console errors.
+- Verify scan reports.
+- Verify security restrictions.
+- Verify error handling.
+
+### Workflow F – Multimedia Debugger
+
+- Upload valid video.
+- Upload corrupted video.
+- Upload unsupported video.
+- Verify metadata inspection.
+- Verify codec detection.
+- Verify playback preview where supported.
+- Verify image and audio validation.
+- Verify file-size and security limits.
+
+### Workflow G – Notifications
+
+- Complete a scan.
+- Verify notification creation.
+- Verify real-time delivery.
+- Mark notification as read.
+- Verify unread count.
+
+### Workflow H – Audit trail
+
+- Generate a patch.
+- Approve and apply it.
+- Roll it back.
+- Verify every action appears in the audit trail.
+- Verify CSV/PDF export.
+
+### Workflow I – User interface
+
+- Test all sidebar routes.
+- Test all buttons.
+- Test forms.
+- Test search and filters.
+- Test the ladybug interaction.
+- Test responsive layouts.
+- Verify no console errors.
+
+Use automated tests where possible and manually verify critical workflows.
+
+---
+
+# PART 14 – IMPLEMENTATION ORDER
+
+Work systematically.
+
+PHASE 1: Existing project inspection and backup.
+
+PHASE 2: Fix existing bugs, especially Website Debugger and Multimedia/Video Debugger.
+
+PHASE 3: Cyberpunk UI redesign and 3D ladybug animation.
+
+PHASE 4: Dashboard and navigation.
+
+PHASE 5: Core bug analysis and patch generation.
+
+PHASE 6: Confidence/risk scoring, Code Impact Radar, Bug Pattern Intelligence, and Learning Centre.
+
+PHASE 7: Safe patch application, rollback, and audit trail.
+
+PHASE 8: Website and multimedia analysis.
+
+PHASE 9: Notifications and real-time updates.
+
+PHASE 10: Security, testing, and deployment preparation.
+
+After every phase, run the application and verify that the previous functionality still works.
+
+Do not move forward while critical build errors or broken workflows remain unresolved.
+
+---
+
+# PART 15 – STRICT COMPLETION RULES
+
+These rules are mandatory.
+
+1. Do not create frontend-only functionality.
+2. Do not create buttons without working actions.
+3. Do not use mock data for production dashboard metrics.
+4. Do not simulate AI responses.
+5. Do not fake scanning progress.
+6. Do not display success messages before backend confirmation.
+7. Do not automatically modify user code without approval.
+8. Do not remove unrelated existing functionality.
+9. Do not replace the database unnecessarily.
+10. Do not expose API keys.
+11. Do not claim unsupported language or media capabilities.
+12. Do not leave unfinished placeholder pages.
+13. Do not ignore runtime errors.
+14. Do not silently discard user data.
+15. Do not stop after UI implementation.
+
+If an external API, API key, package, or infrastructure service is required, implement the integration correctly and clearly document the remaining configuration.
+
+If a capability cannot be completed in the current environment, clearly identify the limitation rather than pretending it works.
+
+---
+
+# FINAL EXPECTED RESULT
+
+Deliver a complete, functional AutoPatch AI platform with:
+
+- Advanced cyberpunk UI/UX.
+- Interactive 3D cursor-responsive ladybug.
+- Functional project upload.
+- Real software bug detection.
+- AI-powered root cause analysis.
+- AI patch generation.
+- Confidence and risk scoring.
+- Code Impact Radar.
+- Bug Pattern Intelligence.
+- Learn From Your Bugs.
+- Safe patch application.
+- One-Click Rollback.
+- Multi-language analysis.
+- Fully functional Website Debugger.
+- Fully functional Multimedia and Video Debugger.
+- Database-backed notifications.
+- Complete Patch Audit Trail.
+- Monaco Code Workbench.
+- Real analytics.
+- Secure backend.
+- Working database.
+- Responsive design.
+- Verified deployment readiness.
+
+Do not include Ask AutoPatch AI Chat, Regression Guardian, or Test Guardian.
+
+## FINAL INSTRUCTION
+
+Build the actual working product, not a visual prototype.
+
+Prioritize functionality, security, reliability, and correct data handling over decorative UI.
+
+Before declaring completion, run the build, execute the available tests, inspect the browser console, verify backend endpoints, verify database operations, and test the main user workflows.
+
+At the end, provide a completion report containing:
+
+1. Features successfully implemented.
+2. Features tested and their test results.
+3. Files created or modified.
+4. Database changes.
+5. APIs implemented.
+6. External API keys or configuration required.
+7. Any remaining limitations.
+8. Exact steps to run the application.
+9. Exact steps to deploy the application.
+
+Never mark a feature as completed unless its functionality has been implemented and verified.

@@ -1,0 +1,111 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-main: #070B14;
+  --bg-secondary: #0B1220;
+  --bg-card: #101A2B;
+  --bg-elevated: #142238;
+  --accent-cyan: #00F5FF;
+  --accent-purple: #A855F7;
+  --accent-blue: #3B82F6;
+  --accent-green: #39FF88;
+  --accent-amber: #FFB020;
+  --accent-red: #FF3864;
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    background-color: #070B14;
+    color: #F1F5F9;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    text-wrap: balance;
+  }
+
+  code,
+  pre,
+  .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+}
+
+.cyber-grid-bg {
+  background-color: #070B14;
+  background-image:
+    linear-gradient(to right, rgba(0, 245, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 245, 255, 0.035) 1px, transparent 1px),
+    radial-gradient(circle at 18% 12%, rgba(0, 245, 255, 0.06), transparent 36%),
+    radial-gradient(circle at 82% 18%, rgba(168, 85, 247, 0.06), transparent 38%);
+  background-size: 40px 40px, 40px 40px, 100% 100%, 100% 100%;
+}
+
+.cyber-panel {
+  background-color: rgba(16, 26, 43, 0.88);
+  border: 1px solid rgba(0, 245, 255, 0.14);
+  box-shadow: 0 1px 0 rgba(0, 245, 255, 0.06) inset;
+}
+
+.cyber-panel-elevated {
+  background-color: rgba(20, 34, 56, 0.92);
+  border: 1px solid rgba(0, 245, 255, 0.2);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle custom scrollbars for code workbench and logs */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070B14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E2D45;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2C4163;
+}
+
+/* React Flow dark theme overrides */
+.react-flow__controls button {
+  background-color: #101A2B !important;
+  border-color: rgba(0, 245, 255, 0.2) !important;
+  color: #F1F5F9 !important;
+}
+
+.react-flow__controls button:hover {
+  background-color: #142238 !important;
+}
+
+.react-flow__minimap {
+  background-color: #0B1220 !important;
+  border: 1px solid rgba(0, 245, 255, 0.16) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
